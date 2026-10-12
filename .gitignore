@@ -58,3 +58,12 @@ Thumbs.db
 /bench/
 /Dockerfile.bench
 /Dockerfile.bench.v2
+
+# Windows 本地构建产物（编译输出，不进仓库）
+/artex.exe
+
+# 大体积压缩包（如误下载的 Go 发行版 tar.gz）
+*.tar.gz
+
+# CodeGraph 索引目录（本机代码索引工具产物）
+/.codegraph/
